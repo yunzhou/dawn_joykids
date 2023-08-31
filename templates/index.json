@@ -54,14 +54,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Hi, My name is Annie ",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>From 2020, we began designing our own products and collaborating with manufacturing partners to bring our designs to life. <\/p>"
           }
         }
       },
