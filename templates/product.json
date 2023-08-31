@@ -45,18 +45,18 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
-            "icon": "leather",
+            "icon": "plant",
             "content": "",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "collapsible-row-1": {
@@ -101,8 +101,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
+        "description",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
