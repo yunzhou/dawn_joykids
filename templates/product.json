@@ -54,9 +54,13 @@
             "page": ""
           }
         },
-        "description": {
-          "type": "description",
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "<p>{{ product.metafields.custom.dimension.value }}<\/p>",
+            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -68,15 +72,6 @@
             "page": ""
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.dimension.value }}<\/p>",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
@@ -84,6 +79,11 @@
             "icon": "heart",
             "content": "",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "share": {
@@ -102,10 +102,10 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
-        "description",
-        "collapsible-row-1",
         "collapsible-row-2",
+        "collapsible-row-1",
         "collapsible-row-3",
+        "description",
         "share"
       ],
       "settings": {
