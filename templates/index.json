@@ -54,8 +54,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Hi, My name is Annie ",
-            "heading_size": "h1"
+            "heading": "<strong>We work with our Manufacturing Partners<\/strong>",
+            "heading_size": "h2"
           }
         },
         "text": {
