@@ -22,6 +22,11 @@
             "text_style": "subtitle"
           }
         },
+        "fff8446b-2626-46b5-a599-4178e2d7a3a3": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -50,17 +55,22 @@
           "settings": {
             "heading": "Materials",
             "icon": "plant",
-            "content": "",
+            "content": "<p>{{ block.settings.page.metafields.custom.materials | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
+            "heading": "Measurements",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.dimension.value }}<\/p>",
+            "content": "<p>{{ product.metafields.custom.measurements | metafield_tag }}<\/p>",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "collapsible-row-1": {
@@ -77,13 +87,8 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "<p>{{ block.settings.page.metafields.custom.care_instructions | metafield_tag }}<\/p>",
             "page": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "share": {
@@ -97,15 +102,16 @@
         "vendor",
         "title",
         "caption",
+        "fff8446b-2626-46b5-a599-4178e2d7a3a3",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-2",
+        "description",
         "collapsible-row-1",
         "collapsible-row-3",
-        "description",
         "share"
       ],
       "settings": {
