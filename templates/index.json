@@ -20,7 +20,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Bookshelf",
+            "button_label_1": "Shop",
             "button_link_1": "shopify:\/\/collections\/playroom",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -167,6 +167,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Photo9-8-2023_105403am.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -190,12 +191,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "a4c75c88-aedb-4432-be19-6553dab88b47": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "a4c75c88-aedb-4432-be19-6553dab88b47"
       ],
       "disabled": true,
       "settings": {
