@@ -58,26 +58,7 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
-          }
-        },
-        "eed79f26-1efa-4acd-a168-5b8b67e1d248": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "icon": "star",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Materials",
-            "icon": "plant",
-            "content": "<p>{{ block.settings.page.metafields.custom.materials | metafield_tag }}<\/p>",
-            "page": ""
           }
         },
         "collapsible-row-2": {
@@ -93,7 +74,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "FAQs",
-            "icon": "question_mark",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -102,7 +83,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Blogs",
-            "icon": "chat_bubble",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -155,8 +136,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "eed79f26-1efa-4acd-a168-5b8b67e1d248",
-        "collapsible-row-0",
         "collapsible-row-2",
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd",
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69",
