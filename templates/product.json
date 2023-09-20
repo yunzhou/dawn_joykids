@@ -58,6 +58,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -65,7 +66,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Description",
-            "icon": "check_mark",
+            "icon": "none",
             "content": "",
             "page": ""
           }
