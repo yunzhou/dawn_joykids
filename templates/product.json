@@ -93,7 +93,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "FAQs",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }
