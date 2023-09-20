@@ -84,7 +84,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Specification",
-            "icon": "ruler",
+            "icon": "none",
             "content": "",
             "page": ""
           }
