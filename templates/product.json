@@ -83,9 +83,9 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Measurements",
+            "heading": "Specification",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.measurements | metafield_tag }}<\/p>",
+            "content": "",
             "page": ""
           }
         },
@@ -130,6 +130,18 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "123ddb59-b738-4860-82b4-4344f54db26f": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
         }
       },
       "block_order": [
@@ -150,7 +162,8 @@
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share"
+        "share",
+        "123ddb59-b738-4860-82b4-4344f54db26f"
       ],
       "settings": {
         "enable_sticky_info": true,
