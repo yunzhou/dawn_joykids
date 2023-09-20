@@ -114,6 +114,26 @@
             "icon_3": "truck",
             "heading_3": "Heading"
           }
+        },
+        "4fae59d3-9c41-4df4-a744-32717a95b20a": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
+        },
+        "083e5be9-2311-4933-9cc5-963a4a27980c": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Frequently Bought Together",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 3,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -132,7 +152,9 @@
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69",
         "collapsible-row-3",
         "share",
-        "123ddb59-b738-4860-82b4-4344f54db26f"
+        "123ddb59-b738-4860-82b4-4344f54db26f",
+        "4fae59d3-9c41-4df4-a744-32717a95b20a",
+        "083e5be9-2311-4933-9cc5-963a4a27980c"
       ],
       "settings": {
         "enable_sticky_info": true,
