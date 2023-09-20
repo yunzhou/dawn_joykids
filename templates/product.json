@@ -121,6 +121,15 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "1425fe6f-9b78-43b6-8576-318e3ab4ca69": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Blogs",
+            "icon": "chat_bubble",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -140,7 +149,8 @@
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share"
+        "share",
+        "1425fe6f-9b78-43b6-8576-318e3ab4ca69"
       ],
       "settings": {
         "enable_sticky_info": true,
