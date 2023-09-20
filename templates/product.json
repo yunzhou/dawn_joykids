@@ -88,20 +88,11 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart",
+            "icon": "none",
             "content": "<p>{{ block.settings.page.metafields.custom.care_instructions | metafield_tag }}<\/p>",
             "page": ""
           }
@@ -139,7 +130,6 @@
         "collapsible-row-2",
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd",
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69",
-        "collapsible-row-1",
         "collapsible-row-3",
         "share",
         "123ddb59-b738-4860-82b4-4344f54db26f"
