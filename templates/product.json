@@ -23,12 +23,13 @@
           }
         },
         "7a155262-56bd-4793-ae0b-29fe44041891": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "fff8446b-2626-46b5-a599-4178e2d7a3a3": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -55,6 +56,11 @@
             "show_gift_card_recipient": true
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -73,9 +79,13 @@
             "page": ""
           }
         },
-        "description": {
-          "type": "description",
+        "eb734847-e1e8-44ee-8e36-e5afb5f18ffd": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "FAQs",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         },
         "collapsible-row-1": {
@@ -113,9 +123,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "collapsible-row-0",
         "collapsible-row-2",
-        "description",
+        "eb734847-e1e8-44ee-8e36-e5afb5f18ffd",
         "collapsible-row-1",
         "collapsible-row-3",
         "share"
@@ -237,7 +248,7 @@
       "type": "apps",
       "blocks": {
         "c0c8586d-42f8-4c0e-8e26-c6cc46fdd251": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
