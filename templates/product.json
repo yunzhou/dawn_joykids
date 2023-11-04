@@ -76,7 +76,7 @@
             "heading": "FAQs",
             "icon": "none",
             "content": "",
-            "page": ""
+            "page": "faqs"
           }
         },
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69": {
@@ -93,7 +93,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "none",
-            "content": "<p>{{ block.settings.page.metafields.custom.care_instructions | metafield_tag }}<\/p>",
+            "content": "",
             "page": ""
           }
         },
