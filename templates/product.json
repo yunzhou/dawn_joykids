@@ -66,7 +66,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "none",
-            "content": "{{ block.settings.page.metafields.custom.product_detail | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         },
@@ -76,7 +76,7 @@
             "heading": "FAQs",
             "icon": "none",
             "content": "",
-            "page": "faqs"
+            "page": ""
           }
         },
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69": {
@@ -92,8 +92,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "none",
-            "content": "",
+            "icon": "heart",
+            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
             "page": ""
           }
         },
