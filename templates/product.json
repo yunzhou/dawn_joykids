@@ -66,8 +66,8 @@
           "settings": {
             "heading": "Product Details",
             "icon": "none",
-            "content": "",
-            "page": "{{ product.metafields.custom.product_details.value }}"
+            "content": "<p>{{ product.metafields.custom.product_detail | metafield_tag }}<\/p>",
+            "page": ""
           }
         },
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd": {
@@ -75,7 +75,7 @@
           "settings": {
             "heading": "FAQs",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.product_faqs | metafield_tag }}<\/p>",
             "page": ""
           }
         },
