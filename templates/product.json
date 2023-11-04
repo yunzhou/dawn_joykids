@@ -67,7 +67,7 @@
             "heading": "Product Details",
             "icon": "none",
             "content": "",
-            "page": "about-us"
+            "page": "{{ product.metafields.custom.product_details.value }}"
           }
         },
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd": {
