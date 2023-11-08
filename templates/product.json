@@ -82,18 +82,18 @@
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Blogs",
+            "heading": "Safety & Usage",
             "icon": "none",
             "content": "",
             "page": ""
           }
         },
-        "collapsible-row-3": {
+        "d9a447cd-bad5-41a9-ac41-708cbcbf70ba": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
+            "heading": "Blogs",
+            "icon": "none",
+            "content": "",
             "page": ""
           }
         },
@@ -150,7 +150,7 @@
         "collapsible-row-2",
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd",
         "1425fe6f-9b78-43b6-8576-318e3ab4ca69",
-        "collapsible-row-3",
+        "d9a447cd-bad5-41a9-ac41-708cbcbf70ba",
         "share",
         "123ddb59-b738-4860-82b4-4344f54db26f",
         "4fae59d3-9c41-4df4-a744-32717a95b20a",
