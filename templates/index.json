@@ -20,7 +20,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop",
+            "button_label_1": "Learn More",
             "button_link_1": "shopify:\/\/collections\/playroom",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -80,16 +80,15 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Best Sellers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "best-selling-collection",
-        "products_to_show": 10,
-        "columns_desktop": 4,
+        "collection": "playroom",
+        "products_to_show": 5,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
