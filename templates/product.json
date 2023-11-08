@@ -84,7 +84,7 @@
           "settings": {
             "heading": "Safety & Usage",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.safety_usage | metafield_tag }}<\/p>",
             "page": ""
           }
         },
