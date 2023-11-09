@@ -106,6 +106,7 @@
         },
         "123ddb59-b738-4860-82b4-4344f54db26f": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
@@ -118,6 +119,7 @@
         },
         "4fae59d3-9c41-4df4-a744-32717a95b20a": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Pop-up link text",
             "page": ""
