@@ -108,6 +108,18 @@
     },
     "collage": {
       "type": "collage",
+      "blocks": {
+        "461475ad-8eb5-4edd-b869-9a1d4499a8f8": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "461475ad-8eb5-4edd-b869-9a1d4499a8f8"
+      ],
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -126,6 +138,21 @@
         "heading_size": "h2",
         "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/lv_0_20230118193243.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5a02572c-1a39-456e-a2c4-900756fa038c": {
+      "type": "video",
+      "settings": {
+        "heading": "Behide the scenes",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/lv_0_20231109104403.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -223,6 +250,7 @@
     "featured_collection",
     "collage",
     "video",
+    "5a02572c-1a39-456e-a2c4-900756fa038c",
     "multicolumn",
     "1693445817a654b18a"
   ]
