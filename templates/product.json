@@ -90,6 +90,7 @@
         },
         "d9a447cd-bad5-41a9-ac41-708cbcbf70ba": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Blogs",
             "icon": "none",
