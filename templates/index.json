@@ -61,7 +61,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>In 2020, we began designing our own products and collaborating with manufacturing partners to bring our designs to life. <\/p>"
+            "text": "<p>Check out below videos <\/p>"
           }
         }
       },
@@ -69,6 +69,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
