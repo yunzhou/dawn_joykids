@@ -230,6 +230,21 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "54f1f846-83cb-442d-937c-1cc5130a71dc": {
+      "type": "video",
+      "settings": {
+        "heading": "Behind the scenes",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/lv_0_20231109104403.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -240,6 +255,7 @@
     "video",
     "5a02572c-1a39-456e-a2c4-900756fa038c",
     "multicolumn",
-    "1693445817a654b18a"
+    "1693445817a654b18a",
+    "54f1f846-83cb-442d-937c-1cc5130a71dc"
   ]
 }
