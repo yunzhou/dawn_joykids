@@ -61,7 +61,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>From 2020, we began designing our own products and collaborating with manufacturing partners to bring our designs to life. <\/p>"
+            "text": "<p>In 2020, we began designing our own products and collaborating with manufacturing partners to bring our designs to life. <\/p>"
           }
         }
       },
@@ -108,33 +108,6 @@
     },
     "collage": {
       "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -149,10 +122,11 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "",
+        "heading": "How many books fit in our 5 tier bookshelf?",
         "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/lv_0_20230118193243.mp4",
+        "video_url": "",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
