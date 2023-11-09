@@ -56,6 +56,19 @@
             "show_gift_card_recipient": true
           }
         },
+        "083e5be9-2311-4933-9cc5-963a4a27980c": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Frequently Bought Together",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 3,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -125,17 +138,14 @@
             "page": ""
           }
         },
-        "083e5be9-2311-4933-9cc5-963a4a27980c": {
-          "type": "complementary",
+        "cc3de16c-5c8c-49e3-9f11-b22d472e5700": {
+          "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "block_heading": "Frequently Bought Together",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 3,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": false
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
           }
         }
       },
@@ -149,6 +159,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "083e5be9-2311-4933-9cc5-963a4a27980c",
         "description",
         "collapsible-row-2",
         "eb734847-e1e8-44ee-8e36-e5afb5f18ffd",
@@ -157,7 +168,7 @@
         "share",
         "123ddb59-b738-4860-82b4-4344f54db26f",
         "4fae59d3-9c41-4df4-a744-32717a95b20a",
-        "083e5be9-2311-4933-9cc5-963a4a27980c"
+        "cc3de16c-5c8c-49e3-9f11-b22d472e5700"
       ],
       "settings": {
         "enable_sticky_info": true,
