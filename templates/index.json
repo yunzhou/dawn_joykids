@@ -108,20 +108,8 @@
     },
     "collage": {
       "type": "collage",
-      "blocks": {
-        "461475ad-8eb5-4edd-b869-9a1d4499a8f8": {
-          "type": "video",
-          "settings": {
-            "video_url": "",
-            "description": "Describe the video"
-          }
-        }
-      },
-      "block_order": [
-        "461475ad-8eb5-4edd-b869-9a1d4499a8f8"
-      ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
