@@ -198,7 +198,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are a family-owned small business, based in Melbourne. We work closely with manufacturing partners to bring our designs to life<\/p>",
+            "text": "<p>We are a family-owned small business based in Melbourne, collaborating closely with manufacturing partners to bring our unique designs to life.<\/p>",
             "text_style": "body"
           }
         }
