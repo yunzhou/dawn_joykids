@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "AU restock ETA Nov 13 (Delayed: Strike Action Impact)",
+            "text": "AU restock delayed: Strike Action Impact",
             "link": ""
           }
         }
