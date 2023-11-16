@@ -53,9 +53,15 @@
   window.GloboPreorderParams.products = window.GloboPreorderParams.products || [];
   {% if request.page_type == 'collection' and collection.products %}
   window.GloboPreorderParams.products = window.GloboPreorderParams.products.concat([
+    {%- comment %}<locksmith:b340>{% endcomment -%}
+      {%- assign locksmith_fe84_forloop__size = 0 %}{%- for product in collection.products -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_fe84_forloop__size = locksmith_fe84_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_fe84_forloop__index = nil -%}
+    {%- comment %}</locksmith:b340>{% endcomment -%}
     {%- for product in collection.products -%}
+      {%- comment %}<locksmith:c0b9>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_fe84_forloop__index == nil %}{% assign locksmith_fe84_forloop__index = 1 %}{% assign locksmith_fe84_forloop__index0 = 0 %}{% else %}{% assign locksmith_fe84_forloop__index = locksmith_fe84_forloop__index | plus: 1 %}{% assign locksmith_fe84_forloop__index0 = locksmith_fe84_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_fe84_forloop__index == 1 %}{% assign locksmith_fe84_forloop__first = true %}{% else %}{% assign locksmith_fe84_forloop__first = false %}{% endif %}{% if locksmith_fe84_forloop__index == locksmith_fe84_forloop__size %}{% assign locksmith_fe84_forloop__last = true %}{% else %}{% assign locksmith_fe84_forloop__last = false %}{% endif %}{% assign locksmith_fe84_forloop__rindex = locksmith_fe84_forloop__size | minus: locksmith_fe84_forloop__index | minus: 1 %}{% assign locksmith_fe84_forloop__rindex0 = locksmith_fe84_forloop__size | minus: locksmith_fe84_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:c0b9>{% endcomment -%}
       {% if product.variants.size > 0 %}
-        {%- unless forloop.first -%},{%- endunless -%}
+        {%- unless locksmith_fe84_forloop__first -%},{%- endunless -%}
         {
           "id":{{-product.id-}},
           "title":{{-product.title | json-}},
@@ -108,9 +114,15 @@
   ]);
   {% elsif request.page_type == 'search' and search.results %}
   window.GloboPreorderParams.products = window.GloboPreorderParams.products.concat([
+    {%- comment %}<locksmith:0911>{% endcomment -%}
+      {%- assign locksmith_e608_forloop__size = 0 %}{%- for product in search.results -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: search, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_e608_forloop__size = locksmith_e608_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_e608_forloop__index = nil -%}
+    {%- comment %}</locksmith:0911>{% endcomment -%}
     {%- for product in search.results -%}
+      {%- comment %}<locksmith:9b9f>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: search, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_e608_forloop__index == nil %}{% assign locksmith_e608_forloop__index = 1 %}{% assign locksmith_e608_forloop__index0 = 0 %}{% else %}{% assign locksmith_e608_forloop__index = locksmith_e608_forloop__index | plus: 1 %}{% assign locksmith_e608_forloop__index0 = locksmith_e608_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_e608_forloop__index == 1 %}{% assign locksmith_e608_forloop__first = true %}{% else %}{% assign locksmith_e608_forloop__first = false %}{% endif %}{% if locksmith_e608_forloop__index == locksmith_e608_forloop__size %}{% assign locksmith_e608_forloop__last = true %}{% else %}{% assign locksmith_e608_forloop__last = false %}{% endif %}{% assign locksmith_e608_forloop__rindex = locksmith_e608_forloop__size | minus: locksmith_e608_forloop__index | minus: 1 %}{% assign locksmith_e608_forloop__rindex0 = locksmith_e608_forloop__size | minus: locksmith_e608_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:9b9f>{% endcomment -%}
       {% if product.variants.size > 0 %}
-        {%- unless forloop.first -%},{%- endunless -%}
+        {%- unless locksmith_e608_forloop__first -%},{%- endunless -%}
         {
           "id":{{-product.id-}},
           "title":{{-product.title | json-}},
