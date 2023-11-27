@@ -16,23 +16,11 @@
             "text": "<strong>Promotes Reading  & Cultivates a Love for Learning<\/strong>",
             "text_style": "body"
           }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn More",
-            "button_link_1": "shopify:\/\/collections\/playroom",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "text"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Photo30-11-2022_100510am.jpg",
