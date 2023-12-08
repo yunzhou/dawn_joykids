@@ -1,8 +1,28 @@
 <script>
-  window.GloboPreorderParams =  window.GloboPreorderParams || {};
-  window.GloboPreorderParams.selectors =  window.GloboPreorderParams.selectors || {};
-  window.GloboPreorderParams.selectors.productImageSelectors = [".card__media"];
-  window.GloboPreorderParams.selectors.collectionFilterSelector += ', .facet-filters__sort, .field__input, .facets__reset';
-  window.GloboPreorderParams.selectors.productForm = ["form.form"];
-  window.GloboPreorderParams.selectors.collectionProductForms = ".gCollectionForm";
+  const preorderCustom = {
+      render: function(){
+          this.initSelectors()
+          this.handleEvents()
+      },
+      initSelectors: function(){
+          window.GloboPreorderParams =  window.GloboPreorderParams || {};
+          window.GloboPreorderParams.selectors =  window.GloboPreorderParams.selectors || {};
+          window.GloboPreorderParams.selectors.productImageSelectors = [".card__media"];
+          window.GloboPreorderParams.selectors.collectionFilterSelector += ', .facet-filters__sort, .field__input, .facets__reset';
+          window.GloboPreorderParams.selectors.productForm = ["form.form"];
+          window.GloboPreorderParams.selectors.collectionProductForms = ".gCollectionForm";
+      },
+      handleEvents: function(){
+          document.addEventListener('globo.preorder.show.badge', e => {
+              const imageWrapper = e.detail.imageWrapper;
+              imageWrapper.closest('.card-wrapper').addClass('gBadgeShowing')
+          })
+      }
+  }
+  preorderCustom.render()
 </script>
+<style>
+  .gBadgeShowing .card__content .card__badge{
+      display: none;
+  }
+</style>
