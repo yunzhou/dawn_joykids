@@ -117,7 +117,7 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "How many books fit in our 5 tier bookshelf?",
+        "heading": "How many books fit in our 3 & 5 tier bookshelf?",
         "heading_size": "h2",
         "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/2 bookshelves.mp4",
