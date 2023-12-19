@@ -76,6 +76,18 @@
           >
           <label class="field__label" for="WholeSaleContactForm-name1">Name1</label>
         </div>
+                <div class="field">
+          <input
+            class="field__input"
+            autocomplete="information2"
+            type="text"
+            id="WholeSaleContactForm-information2"
+            name="contact[information2]"
+            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            placeholder="name1"
+          >
+          <label class="field__label" for="WholeSaleContactForm-name1">Name1</label>
+        </div>
         <div class="field field--with-error">
           <input
             autocomplete="email"
