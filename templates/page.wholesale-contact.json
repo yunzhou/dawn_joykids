@@ -19,7 +19,7 @@
     }
   },
   "order": [
-    "main",
-    "form"
+    "form",
+    "main"
   ]
 }
