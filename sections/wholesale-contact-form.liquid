@@ -63,7 +63,7 @@
             aria-required="true"
             placeholder="First Name, Last Name"
           >
-          <label class="field__label" for="WholeSaleContactForm-name">First Name, Last Name</label>
+          <label class="field__label" for="WholeSaleContactForm-name">First Name, Last Name<span aria-hidden="true">*</span></label>
         </div>
         <div class="field">
           <input
@@ -76,7 +76,9 @@
             aria-required="true"
             placeholder="Business Trade Name"
           >
-          <label class="field__label" for="WholeSaleContactForm-business_trade_name">Business Trade Name</label>
+          <label class="field__label" for="WholeSaleContactForm-business_trade_name">Business Trade Name
+          <span aria-hidden="true">*</span>
+          </label>
         </div>
 
       </div>
@@ -99,8 +101,7 @@
           >
           <label class="field__label" for="WholeSaleContactForm-email">
             {{- 'templates.contact.form.email' | t }}
-            <span aria-hidden="true">*</span></label
-          >
+            <span aria-hidden="true">*</span></label>
           {%- if form.errors contains 'email' -%}
             <small class="contact__field-error" id="WholeSaleContactForm-email-error">
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
@@ -124,7 +125,7 @@
           aria-required="true"
           placeholder="{{ 'templates.contact.form.phone' | t }}"
         >
-        <label class="field__label" for="WholeSaleContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+        <label class="field__label" for="WholeSaleContactForm-phone">{{ 'templates.contact.form.phone' | t }}<span aria-hidden="true">*</span></label>
       </div>
       <div class="field">
           <input
@@ -137,7 +138,7 @@
             aria-required="true"
             placeholder="Business Location"
           >
-          <label class="field__label" for="WholeSaleContactForm-business_location">Business Location</label>
+          <label class="field__label" for="WholeSaleContactForm-business_location">Business Location<span aria-hidden="true">*</span></label>
         </div>
       <div class="field">
         <textarea
