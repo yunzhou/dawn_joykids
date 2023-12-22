@@ -55,15 +55,19 @@
         <div class="field">
           <input
             class="field__input"
-            autocomplete="contact_name"
+            autocomplete=""
             type="text"
-            id="WholeSaleContactForm-name"
+            id="WholeSaleContactForm-contact_name"
             name="contact[contact_name]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             aria-required="true"
+            {% if form.errors contains 'contact_name' %}
+              aria-invalid="true"
+              aria-describedby="WholeSaleContactForm-email-error"
+            {% endif %}
             placeholder="First Name, Last Name"
           >
-          <label class="field__label" for="WholeSaleContactForm-name">First Name, Last Name<span aria-hidden="true">*</span></label>
+          <label class="field__label" for="WholeSaleContactForm-contact_name">First Name, Last Name<span aria-hidden="true">*</span></label>
         </div>
         <div class="field">
           <input
@@ -165,7 +169,7 @@
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
-          submit
+          Submit
         </button>
       </div>
     {%- endform -%}
