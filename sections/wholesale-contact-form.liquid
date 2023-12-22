@@ -61,7 +61,7 @@
             name="contact[contact_name]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             aria-required="true"
-            {% if form.errors contains 'contact_name' %}
+            {% if form.errors contains 'contact' %}
               aria-invalid="true"
               aria-describedby="WholeSaleContactForm-email-error"
             {% endif %}
