@@ -79,6 +79,7 @@
             name="contact[business_trade_name]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
             aria-required="true"
+            required 
             placeholder="Business Trade Name"
           >
           <label class="field__label" for="WholeSaleContactForm-business_trade_name">Business Trade Name
@@ -98,6 +99,7 @@
             autocapitalize="off"
             value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
             aria-required="true"
+            required 
             {% if form.errors contains 'email' %}
               aria-invalid="true"
               aria-describedby="WholeSaleContactForm-email-error"
@@ -140,6 +142,7 @@
             type="text"
             id="WholeSaleContactForm-business_location"
             name="contact[business_location]"
+            required
             value=""
             aria-required="true"
             placeholder="Business Location"
