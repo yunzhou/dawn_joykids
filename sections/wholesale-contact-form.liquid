@@ -60,6 +60,7 @@
             id="WholeSaleContactForm-name"
             name="contact[contact_name]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            aria-required="true"
             placeholder="First Name, Last Name"
           >
           <label class="field__label" for="WholeSaleContactForm-name">First Name, Last Name</label>
@@ -72,6 +73,7 @@
             id="WholeSaleContactForm-business_trade_name"
             name="contact[business_trade_name]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+            aria-required="true"
             placeholder="Business Trade Name"
           >
           <label class="field__label" for="WholeSaleContactForm-business_trade_name">Business Trade Name</label>
@@ -119,6 +121,7 @@
           name="contact[{{ 'templates.contact.form.phone' | t }}]"
           pattern="[0-9\-]*"
           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+          aria-required="true"
           placeholder="{{ 'templates.contact.form.phone' | t }}"
         >
         <label class="field__label" for="WholeSaleContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
@@ -131,6 +134,7 @@
             id="WholeSaleContactForm-business_location"
             name="contact[business_location]"
             value=""
+            aria-required="true"
             placeholder="Business Location"
           >
           <label class="field__label" for="WholeSaleContactForm-business_location">Business Location</label>
