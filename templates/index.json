@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -113,6 +122,21 @@
         "padding_bottom": 36
       }
     },
+    "5a02572c-1a39-456e-a2c4-900756fa038c": {
+      "type": "video",
+      "settings": {
+        "heading": "Behide the scenes",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/Behind the scenes.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -124,7 +148,7 @@
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "padding_top": 28,
         "padding_bottom": 36
       }
     },
@@ -139,21 +163,6 @@
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5a02572c-1a39-456e-a2c4-900756fa038c": {
-      "type": "video",
-      "settings": {
-        "heading": "Behide the scenes",
-        "heading_size": "h2",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/lv_0_20231109104403.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -201,9 +210,9 @@
     "a4bb748d-2659-461b-8ab6-3f52c18a7b1b",
     "rich_text",
     "featured_collection",
+    "5a02572c-1a39-456e-a2c4-900756fa038c",
     "video",
     "54f1f846-83cb-442d-937c-1cc5130a71dc",
-    "5a02572c-1a39-456e-a2c4-900756fa038c",
     "1693445817a654b18a",
     "1711013514f7c04c2a"
   ]
