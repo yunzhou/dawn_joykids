@@ -130,6 +130,7 @@
         "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/Behind the scenes.mp4",
         "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/WechatIMG327.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
