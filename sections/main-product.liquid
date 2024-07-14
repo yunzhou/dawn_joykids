@@ -3,7 +3,9 @@
   class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
-  <span hidden >******{{ product.id }}*****</span>
+  {%- if  product.id == '7590586679377' -%}
+    <span>******{{ product.id }}*****</span>
+  {%- endif -%}
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
