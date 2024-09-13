@@ -35,6 +35,30 @@
         "enable_language_selector": false
       }
     },
+    "announcement_bar_KFTpKq": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_MBLMYU": {
+          "type": "announcement",
+          "settings": {
+            "text": "Next AU restock is on September 28",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_MBLMYU"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -56,6 +80,7 @@
   },
   "order": [
     "announcement-bar",
+    "announcement_bar_KFTpKq",
     "header"
   ]
 }
