@@ -37,18 +37,6 @@
     },
     "announcement_bar_KFTpKq": {
       "type": "announcement-bar",
-      "blocks": {
-        "announcement_MBLMYU": {
-          "type": "announcement",
-          "settings": {
-            "text": "Next AU restock is on September 28",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_MBLMYU"
-      ],
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
