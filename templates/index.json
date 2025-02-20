@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -22,7 +22,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<strong>Promotes Reading  & Cultivates a Love for Learning<\/strong>",
+            "text": "<strong>Promotes Reading  & Cultivates a Love for Learning</strong>",
             "text_style": "body"
           }
         }
@@ -32,9 +32,10 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/365148085_1796719297397449_2704017665704519381_n_81c32d42-7258-42b0-8c3e-04757e06380b.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify://shop_images/wooden-crazy-track-758695.jpg",
+        "image_2": "shopify://shop_images/joykids-slim-line-toy-shelf-with-7-tier-adjustable-solidwood-364087.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -68,14 +69,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Design <\/strong>",
+            "heading": "<strong>Design </strong>",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Check out below videos <\/p>"
+            "text": "<p>Check out below videos </p>"
           }
         }
       },
@@ -128,9 +129,9 @@
         "heading": "Behide the scenes",
         "heading_size": "h2",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Behind the scenes.mp4",
+        "video": "shopify://files/videos/Behind the scenes.mp4",
         "video_url": "",
-        "cover_image": "shopify:\/\/shop_images\/WechatIMG327.jpg",
+        "cover_image": "shopify://shop_images/WechatIMG327.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -144,7 +145,7 @@
         "heading": "How many books fit in our 3 & 5 tier bookshelf?",
         "heading_size": "h2",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/2 bookshelves.mp4",
+        "video": "shopify://files/videos/2 bookshelves.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -159,7 +160,7 @@
         "heading": "How to secure to the wall?",
         "heading_size": "h2",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/how to secure to the wall.mp4",
+        "video": "shopify://files/videos/how to secure to the wall.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -172,7 +173,7 @@
       "type": "apps",
       "blocks": {
         "c964ebb9-4173-4a13-9744-d84aa91d6574": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
@@ -189,11 +190,13 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_WHt7pT": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
