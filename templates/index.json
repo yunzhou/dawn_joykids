@@ -15,14 +15,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Home Library & Playroom",
-            "heading_size": "h0"
+            "heading": "",
+            "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<strong>Promotes Reading  & Cultivates a Love for Learning</strong>",
+            "text": "",
             "text_style": "body"
           }
         }
@@ -32,10 +32,9 @@
         "text"
       ],
       "settings": {
-        "image": "shopify://shop_images/wooden-crazy-track-758695.jpg",
-        "image_2": "shopify://shop_images/joykids-slim-line-toy-shelf-with-7-tier-adjustable-solidwood-364087.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
+        "image": "shopify://shop_images/Thank_you_sale.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
