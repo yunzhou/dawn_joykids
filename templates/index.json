@@ -12,11 +12,11 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "heading_8mDq6Y": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "heading_size": "h2"
+            "heading": "Home Library & Playroom",
+            "heading_size": "h1"
           }
         },
         "text": {
@@ -28,7 +28,7 @@
         }
       },
       "block_order": [
-        "heading",
+        "heading_8mDq6Y",
         "text"
       ],
       "settings": {
