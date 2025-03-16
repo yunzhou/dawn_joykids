@@ -22,7 +22,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Promotes Reading  & Cultivates a Love for Learning",
             "text_style": "body"
           }
         }
@@ -32,9 +32,9 @@
         "text"
       ],
       "settings": {
-        "image": "shopify://shop_images/Thank_you_sale.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image": "shopify://shop_images/7-tier-slim-line-toy-shelf-adjustable-varnished-solidwood-771228.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
