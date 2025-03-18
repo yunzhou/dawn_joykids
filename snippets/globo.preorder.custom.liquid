@@ -17,12 +17,18 @@
               const imageWrapper = e.detail.imageWrapper;
               imageWrapper.closest('.card-wrapper').addClass('gBadgeShowing')
           })
+
+         document.addEventListener('globo.preorder.show.preorder', e => {
+              const {form} = e.detail;
+              form.closest('.product__info-wrapper').addClass('product__info-wrapper-preorder')
+          })
       }
   }
   preorderCustom.render()
 </script>
 <style>
-  .gBadgeShowing .card__content .card__badge{
+  .gBadgeShowing .card__content .card__badge,
+  .product__info-wrapper-preorder .price__badge-sold-out {
       display: none;
   }
 </style>
