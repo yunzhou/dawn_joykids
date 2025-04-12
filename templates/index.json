@@ -99,7 +99,7 @@
         "heading_size": "h2",
         "blog": "news",
         "post_limit": 4,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_image": true,
         "show_date": true,
@@ -209,7 +209,14 @@
           "settings": {
             "title": "",
             "title_color": "",
+            "title_size_v2": 0,
             "alignment": "center",
+            "margin_top": 0,
+            "margin_bottom": 0,
+            "margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": ""
