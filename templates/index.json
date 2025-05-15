@@ -15,14 +15,14 @@
         "heading_7mRTyR": {
           "type": "heading",
           "settings": {
-            "heading": "<em>Easter just got sweeter! </em>",
-            "heading_size": "h1"
+            "heading": "<strong>Playroom Makeover Sale</strong>",
+            "heading_size": "h2"
           }
         },
         "text_T6p36n": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>Enjoy FREE shipping on ALL JOYKIDS orders – no minimums. 🎉</strong></em></p>",
+            "text": "<p>Upgrade your little one’s space with stylish, functional storage—perfect for toys, books, and more! Don’t miss out!<br/><br/>✨ Get $100 OFF when you spend over $600<br/>📍 Valid in USA & Australia<br/>🔑 Use Code: MAKEOVER100 at checkout<br/>⏰ Sale Period: 9 May 2025 (9 AM AEST) – 16 May 2025 (11:59PM AEST)</p>",
             "text_style": "body"
           }
         },
@@ -40,11 +40,10 @@
         "text_T6p36n",
         "button_ezGyjj"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Easter_2025.png",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-05-06_at_1.08.13_PM.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -78,6 +77,7 @@
         "heading_8mDq6Y",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/7-tier-slim-line-toy-shelf-adjustable-varnished-solidwood-771228.jpg",
         "image_overlay_opacity": 20,
@@ -187,6 +187,7 @@
     },
     "5a02572c-1a39-456e-a2c4-900756fa038c": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Behide the scenes",
         "heading_size": "h2",
