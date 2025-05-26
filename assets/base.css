@@ -3499,3 +3499,21 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+/* variant picker sytle */
+.variant__button-label {
+  display: inline-block;
+  padding: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.variant__button-label[style] {
+  border: 2px solid #999;
+}
+.variant__button-label input {
+  display: none;
+}
