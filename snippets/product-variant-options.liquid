@@ -1,3 +1,4 @@
+new variant
 {% comment %}
   Renders product variant options
 
@@ -6,7 +7,6 @@
   - option: {Object} current product_option object.
   - block: {Object} block object.
 
-
   Usage:
   {% render 'product-variant-options',
     product: product,
@@ -14,6 +14,7 @@
     block: block
   %}
 {% endcomment %}
+
 {%- liquid
   assign variants_available_arr = product.variants | map: 'available'
   assign variants_option1_arr = product.variants | map: 'option1'
@@ -46,28 +47,68 @@
   -%}
 
   {%- if block.settings.picker_type == 'button' -%}
-    <input
-      type="radio"
-      id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-      name="{{ option.name }}"
-      value="{{ value | escape }}"
-      form="{{ product_form_id }}"
-      {% if option.selected_value == value %}
-        checked
-      {% endif %}
-      {% if option_disabled %}
-        class="disabled"
-      {% endif %}
-    >
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-      {{ value -}}
-      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-    </label>
+    {%- if option.name == 'Color' or option.name == 'Colour' -%}
+      {%- assign swatch_colors = 
+        {
+          'Black': '#000000',
+          'White': '#ffffff',
+          'Jet Black': '#1a1a1a',
+          'Navy': '#001f3f',
+          'Red': '#FF4136',
+          'Grey': '#CCCCCC'
+        } 
+      -%}
+
+      <input
+        type="radio"
+        id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+        name="{{ option.name }}"
+        value="{{ value | escape }}"
+        form="{{ product_form_id }}"
+        class="sr-only"
+        {% if option.selected_value == value %}
+          checked
+        {% endif %}
+        {% if option_disabled %}
+          disabled
+        {% endif %}
+      >
+      <label
+        for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+        class="color-swatch"
+        style="background-color: {{ swatch_colors[value] | default: value | downcase | replace: ' ', '' }};"
+        title="{{ value }}"
+      >
+        <span class="visually-hidden">{{ value }}</span>
+      </label>
+    {%- else -%}
+      <input
+        type="radio"
+        id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+        name="{{ option.name }}"
+        value="{{ value | escape }}"
+        form="{{ product_form_id }}"
+        {% if option.selected_value == value %}
+          checked
+        {% endif %}
+        {% if option_disabled %}
+          class="disabled"
+        {% endif %}
+      >
+      <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+        {{ value -}}
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+      </label>
+    {%- endif -%}
+
   {%- elsif block.settings.picker_type == 'dropdown' -%}
     <option
       value="{{ value | escape }}"
       {% if option.selected_value == value %}
         selected="selected"
+      {% endif %}
+      {% if option_disabled %}
+        disabled
       {% endif %}
     >
       {% if option_disabled -%}
@@ -78,3 +119,4 @@
     </option>
   {%- endif -%}
 {%- endfor -%}
+
