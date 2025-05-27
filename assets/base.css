@@ -3501,19 +3501,35 @@ details-disclosure > details {
 }
 
 /* variant picker sytle */
-.variant__button-label {
+.color-swatch {
   display: inline-block;
-  padding: 0.25rem;
-  border: 1px solid #ccc;
-  border-radius: 9999px;
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.5rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-right: 8px;
   cursor: pointer;
+  position: relative;
 }
-.variant__button-label[style] {
-  border: 2px solid #999;
+
+.color-swatch:hover {
+  border-color: #000;
 }
-.variant__button-label input {
-  display: none;
+
+input[type="radio"]:checked + .color-swatch {
+  border-color: #000;
+}
+
+input[type="radio"]:disabled + .color-swatch {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.visually-hidden,
+.sr-only {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
 }
