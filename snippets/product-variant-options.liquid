@@ -48,16 +48,8 @@ new variant
 
   {%- if block.settings.picker_type == 'button' -%}
     {%- if option.name == 'Color' or option.name == 'Colour' -%}
-      {%- assign swatch_colors = 
-        {
-          'Black': '#000000',
-          'White': '#ffffff',
-          'Jet Black': '#1a1a1a',
-          'Navy': '#001f3f',
-          'Red': '#FF4136',
-          'Grey': '#CCCCCC'
-        } 
-      -%}
+      {%- assign color_names = 'Black,White,Jet Black,Navy,Red,Grey' | split: ',' -%}
+      {%- assign color_codes = '#000000,#ffffff,#1a1a1a,#001f3f,#FF4136,#CCCCCC' | split: ',' -%}
 
       <input
         type="radio"
@@ -76,7 +68,8 @@ new variant
       <label
         for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
         class="color-swatch"
-        style="background-color: {{ swatch_colors[value] | default: value | downcase | replace: ' ', '' }};"
+        {%- assign index = color_names | index_of: value -%}
+        style="background-color: {{ color_codes[index] | default: value | downcase | replace: ' ', '' }};"
         title="{{ value }}"
       >
         <span class="visually-hidden">{{ value }}</span>
@@ -119,4 +112,3 @@ new variant
     </option>
   {%- endif -%}
 {%- endfor -%}
-
