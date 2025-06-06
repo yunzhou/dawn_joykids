@@ -181,6 +181,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "3138269044488530766": {
+        "type": "shopify://apps/uppromote-affiliate/blocks/core-script/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
