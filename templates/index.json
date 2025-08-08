@@ -150,25 +150,18 @@
           "settings": {
             "collection": "display-storage"
           }
-        },
-        "featured_collection_VHKLRg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "table-chair"
-          }
         }
       },
       "block_order": [
         "featured_collection_HtGrF9",
         "featured_collection_w7Twnq",
-        "featured_collection_9TzhNi",
-        "featured_collection_VHKLRg"
+        "featured_collection_9TzhNi"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h2",
         "image_ratio": "portrait",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
