@@ -86,6 +86,7 @@ class FacetFiltersForm extends HTMLElement {
       .forEach((element) => {
         element.classList.add('scroll-trigger--cancel');
       });
+    if(typeof Globo?.Preorder != 'undefined') Globo?.Preorder?.initPreorder()
   }
 
   static renderProductCount(html) {
