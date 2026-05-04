@@ -136,7 +136,7 @@
         "featured_collection_HtGrF9": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bookshelves-toy-shelves"
+            "collection": "book-toy-shelves"
           }
         },
         "featured_collection_w7Twnq": {
@@ -196,7 +196,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "bookshelves-toy-shelves",
+        "collection": "book-toy-shelves",
         "products_to_show": 5,
         "columns_desktop": 3,
         "full_width": false,
